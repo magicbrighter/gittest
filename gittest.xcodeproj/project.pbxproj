@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA84093B14482C7A008F3EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BA9F9C9B1448128500E87423 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9F9C9F1448128500E87423 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA9F9CA11448128500E87423 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +87,7 @@
 		BA9F9C901448128500E87423 = {
 			isa = PBXGroup;
 			children = (
+				BA84093B14482C7A008F3EA8 /* .gitignore */,
 				BA9F9CA51448128500E87423 /* gittest */,
 				BA9F9CC71448128600E87423 /* gittestTests */,
 				BA9F9C9E1448128500E87423 /* Frameworks */,
@@ -440,6 +442,7 @@
 				BA9F9CD51448128600E87423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9F9CD61448128600E87423 /* Build configuration list for PBXNativeTarget "gittestTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +451,7 @@
 				BA9F9CD81448128600E87423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
