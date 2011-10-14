@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA9F9CA01448128500E87423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9C9F1448128500E87423 /* UIKit.framework */; };
+		BA9F9CA21448128500E87423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9CA11448128500E87423 /* Foundation.framework */; };
+		BA9F9CA41448128500E87423 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9CA31448128500E87423 /* CoreGraphics.framework */; };
+		BA9F9CAA1448128600E87423 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9F9CA81448128600E87423 /* InfoPlist.strings */; };
+		BA9F9CAC1448128600E87423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F9CAB1448128600E87423 /* main.m */; };
+		BA9F9CB01448128600E87423 /* gittestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F9CAF1448128600E87423 /* gittestAppDelegate.m */; };
+		BA9F9CB31448128600E87423 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9F9CB11448128600E87423 /* MainWindow.xib */; };
+		BA9F9CB61448128600E87423 /* gittestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F9CB51448128600E87423 /* gittestViewController.m */; };
+		BA9F9CB91448128600E87423 /* gittestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9F9CB71448128600E87423 /* gittestViewController.xib */; };
+		BA9F9CC11448128600E87423 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9CC01448128600E87423 /* SenTestingKit.framework */; };
+		BA9F9CC21448128600E87423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9C9F1448128500E87423 /* UIKit.framework */; };
+		BA9F9CC31448128600E87423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9CA11448128500E87423 /* Foundation.framework */; };
+		BA9F9CC41448128600E87423 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9F9CA31448128500E87423 /* CoreGraphics.framework */; };
+		BA9F9CCC1448128600E87423 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9F9CCA1448128600E87423 /* InfoPlist.strings */; };
+		BA9F9CCE1448128600E87423 /* gittestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BA9F9CCD1448128600E87423 /* gittestTests.h */; };
+		BA9F9CD01448128600E87423 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F9CCF1448128600E87423 /* gittestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9F9CC51448128600E87423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9F9C921448128500E87423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9F9C9A1448128500E87423;
+			remoteInfo = gittest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA9F9C9B1448128500E87423 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9F9C9F1448128500E87423 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA9F9CA11448128500E87423 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA9F9CA31448128500E87423 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA9F9CA71448128600E87423 /* gittest-Info.plist */ = {isa = PBXFileReference; path = "gittest-Info.plist"; sourceTree = "<group>"; };
+		BA9F9CA91448128600E87423 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA9F9CAB1448128600E87423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9F9CAD1448128600E87423 /* gittest-Prefix.pch */ = {isa = PBXFileReference; path = "gittest-Prefix.pch"; sourceTree = "<group>"; };
+		BA9F9CAE1448128600E87423 /* gittestAppDelegate.h */ = {isa = PBXFileReference; path = gittestAppDelegate.h; sourceTree = "<group>"; };
+		BA9F9CAF1448128600E87423 /* gittestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestAppDelegate.m; sourceTree = "<group>"; };
+		BA9F9CB21448128600E87423 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BA9F9CB41448128600E87423 /* gittestViewController.h */ = {isa = PBXFileReference; path = gittestViewController.h; sourceTree = "<group>"; };
+		BA9F9CB51448128600E87423 /* gittestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestViewController.m; sourceTree = "<group>"; };
+		BA9F9CB81448128600E87423 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/gittestViewController.xib; sourceTree = "<group>"; };
+		BA9F9CBF1448128600E87423 /* gittestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9F9CC01448128600E87423 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA9F9CC91448128600E87423 /* gittestTests-Info.plist */ = {isa = PBXFileReference; path = "gittestTests-Info.plist"; sourceTree = "<group>"; };
+		BA9F9CCB1448128600E87423 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA9F9CCD1448128600E87423 /* gittestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gittestTests.h; sourceTree = "<group>"; };
+		BA9F9CCF1448128600E87423 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9F9C981448128500E87423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CA01448128500E87423 /* UIKit.framework in Frameworks */,
+				BA9F9CA21448128500E87423 /* Foundation.framework in Frameworks */,
+				BA9F9CA41448128500E87423 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9F9CBB1448128600E87423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CC11448128600E87423 /* SenTestingKit.framework in Frameworks */,
+				BA9F9CC21448128600E87423 /* UIKit.framework in Frameworks */,
+				BA9F9CC31448128600E87423 /* Foundation.framework in Frameworks */,
+				BA9F9CC41448128600E87423 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9F9C901448128500E87423 = {
+			isa = PBXGroup;
+			children = (
+				BA9F9CA51448128500E87423 /* gittest */,
+				BA9F9CC71448128600E87423 /* gittestTests */,
+				BA9F9C9E1448128500E87423 /* Frameworks */,
+				BA9F9C9C1448128500E87423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9F9C9C1448128500E87423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9C9B1448128500E87423 /* gittest.app */,
+				BA9F9CBF1448128600E87423 /* gittestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9F9C9E1448128500E87423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9C9F1448128500E87423 /* UIKit.framework */,
+				BA9F9CA11448128500E87423 /* Foundation.framework */,
+				BA9F9CA31448128500E87423 /* CoreGraphics.framework */,
+				BA9F9CC01448128600E87423 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9F9CA51448128500E87423 /* gittest */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9CAE1448128600E87423 /* gittestAppDelegate.h */,
+				BA9F9CAF1448128600E87423 /* gittestAppDelegate.m */,
+				BA9F9CB11448128600E87423 /* MainWindow.xib */,
+				BA9F9CB41448128600E87423 /* gittestViewController.h */,
+				BA9F9CB51448128600E87423 /* gittestViewController.m */,
+				BA9F9CB71448128600E87423 /* gittestViewController.xib */,
+				BA9F9CA61448128500E87423 /* Supporting Files */,
+			);
+			path = gittest;
+			sourceTree = "<group>";
+		};
+		BA9F9CA61448128500E87423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9CA71448128600E87423 /* gittest-Info.plist */,
+				BA9F9CA81448128600E87423 /* InfoPlist.strings */,
+				BA9F9CAB1448128600E87423 /* main.m */,
+				BA9F9CAD1448128600E87423 /* gittest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9F9CC71448128600E87423 /* gittestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9CCD1448128600E87423 /* gittestTests.h */,
+				BA9F9CCF1448128600E87423 /* gittestTests.m */,
+				BA9F9CC81448128600E87423 /* Supporting Files */,
+			);
+			path = gittestTests;
+			sourceTree = "<group>";
+		};
+		BA9F9CC81448128600E87423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F9CC91448128600E87423 /* gittestTests-Info.plist */,
+				BA9F9CCA1448128600E87423 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9F9C9A1448128500E87423 /* gittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9F9CD31448128600E87423 /* Build configuration list for PBXNativeTarget "gittest" */;
+			buildPhases = (
+				BA9F9C971448128500E87423 /* Sources */,
+				BA9F9C981448128500E87423 /* Frameworks */,
+				BA9F9C991448128500E87423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gittest;
+			productName = gittest;
+			productReference = BA9F9C9B1448128500E87423 /* gittest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9F9CBE1448128600E87423 /* gittestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9F9CD61448128600E87423 /* Build configuration list for PBXNativeTarget "gittestTests" */;
+			buildPhases = (
+				BA9F9CBA1448128600E87423 /* Sources */,
+				BA9F9CBB1448128600E87423 /* Frameworks */,
+				BA9F9CBC1448128600E87423 /* Resources */,
+				BA9F9CBD1448128600E87423 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9F9CC61448128600E87423 /* PBXTargetDependency */,
+			);
+			name = gittestTests;
+			productName = gittestTests;
+			productReference = BA9F9CBF1448128600E87423 /* gittestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9F9C921448128500E87423 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BA9F9C951448128500E87423 /* Build configuration list for PBXProject "gittest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA9F9C901448128500E87423;
+			productRefGroup = BA9F9C9C1448128500E87423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9F9C9A1448128500E87423 /* gittest */,
+				BA9F9CBE1448128600E87423 /* gittestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9F9C991448128500E87423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CAA1448128600E87423 /* InfoPlist.strings in Resources */,
+				BA9F9CB31448128600E87423 /* MainWindow.xib in Resources */,
+				BA9F9CB91448128600E87423 /* gittestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9F9CBC1448128600E87423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CCC1448128600E87423 /* InfoPlist.strings in Resources */,
+				BA9F9CCE1448128600E87423 /* gittestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA9F9CBD1448128600E87423 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9F9C971448128500E87423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CAC1448128600E87423 /* main.m in Sources */,
+				BA9F9CB01448128600E87423 /* gittestAppDelegate.m in Sources */,
+				BA9F9CB61448128600E87423 /* gittestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9F9CBA1448128600E87423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F9CD01448128600E87423 /* gittestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA9F9CC61448128600E87423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9F9C9A1448128500E87423 /* gittest */;
+			targetProxy = BA9F9CC51448128600E87423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9F9CA81448128600E87423 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F9CA91448128600E87423 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA9F9CB11448128600E87423 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F9CB21448128600E87423 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BA9F9CB71448128600E87423 /* gittestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F9CB81448128600E87423 /* en */,
+			);
+			name = gittestViewController.xib;
+			sourceTree = "<group>";
+		};
+		BA9F9CCA1448128600E87423 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F9CCB1448128600E87423 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9F9CD11448128600E87423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA9F9CD21448128600E87423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9F9CD41448128600E87423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gittest/gittest-Prefix.pch";
+				INFOPLIST_FILE = "gittest/gittest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA9F9CD51448128600E87423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gittest/gittest-Prefix.pch";
+				INFOPLIST_FILE = "gittest/gittest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA9F9CD71448128600E87423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gittest/gittest-Prefix.pch";
+				INFOPLIST_FILE = "gittestTests/gittestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BA9F9CD81448128600E87423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gittest/gittest-Prefix.pch";
+				INFOPLIST_FILE = "gittestTests/gittestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9F9C951448128500E87423 /* Build configuration list for PBXProject "gittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9F9CD11448128600E87423 /* Debug */,
+				BA9F9CD21448128600E87423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9F9CD31448128600E87423 /* Build configuration list for PBXNativeTarget "gittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9F9CD41448128600E87423 /* Debug */,
+				BA9F9CD51448128600E87423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA9F9CD61448128600E87423 /* Build configuration list for PBXNativeTarget "gittestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9F9CD71448128600E87423 /* Debug */,
+				BA9F9CD81448128600E87423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9F9C921448128500E87423 /* Project object */;
+}
